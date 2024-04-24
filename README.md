@@ -1,4 +1,4 @@
-# Knapsack
+# Knapsack (Gatech CS6140 Course Project)
 Description: 4 Implementations for the NP-Complete Knapsack Problem
 * Branch and Bound
 * Approximation Algorithm
@@ -9,4 +9,4 @@ Description: 4 Implementations for the NP-Complete Knapsack Problem
   * A temperature of 15000 and cooling_rate of 0.0001 is used
 
 # Usage
-```-inst <filename> -alg [BnB|Approx|LS1|LS2] -time <cutoff in seconds> -seed <random seed>```
+```python knapsack.py -inst <filename> -alg [BnB|Approx|LS1|LS2] -time <cutoff in seconds> -seed <random seed>```
